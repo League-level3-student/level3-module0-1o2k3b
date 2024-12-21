@@ -30,9 +30,14 @@ public class _02_2DArrayPractice {
      *          3, 4, 5
      *          6, 7, 8
      */
-    public Integer[][] test1() {
-        
-        return null;
+    public int[][] test1() {
+        int[][] arr1 = new  int[3][3];
+//        for(int i = 0; i<arr1.length; i++) {
+//        	for(int k = 0; k<arr1[i].length; k++) {
+//        		
+//        	}
+  //      }
+        return arr1;
     }
     
     /*
@@ -41,8 +46,8 @@ public class _02_2DArrayPractice {
      *          "e", "f", "g", "e"
      */
     public String[][] test2() {
-        
-        return null;
+        String[][] arr2 = new String[2][4];
+        return arr2;
     }
     
     /*
@@ -53,9 +58,9 @@ public class _02_2DArrayPractice {
      *          true, true,
      *          true, false
      */
-    public Boolean[][] test3() {
-        
-        return null;
+    public boolean[][] test3() {
+        boolean[][] arr3 = new boolean[5][2];
+        return arr3;
     }
     
     /*

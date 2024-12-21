@@ -27,6 +27,7 @@ public class FireworkDisplay extends JPanel implements ActionListener {
 
     public static void main(String[] args) {
         new FireworkDisplay().start();
+        System.out.println("width: " + WIDTH + " Height: " + HEIGHT);
     }
 
     public void start() {
